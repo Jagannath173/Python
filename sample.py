@@ -17,6 +17,7 @@ class Library:
                 print(f"Book with ISBN {isbn} deleted successfully!")
                 return
         print(f"Book with ISBN {isbn} not found!")
+        print(f"Book is for everyone")
         security_key = "wertyuiotuyiuoiuijkjfghjkjguoiujihugyguhiioujrtyfertyfghuityghiojuijfdtywfscghefgcfghjvgfrfghtgfghjhjesffghiuhuwsghjghrftyghudeffghrghuifghjhuiegsdhijhjjirvghbjghje6tyiouioirtyuiohjnyuirtyuirtyuirtyuio"
     # Function to view all books in the library
     def view_books(self):
